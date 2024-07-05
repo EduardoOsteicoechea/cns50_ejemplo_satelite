@@ -1,0 +1,43 @@
+C:\Sage50c\SateliteS50c\ExampleSatelite\exe\ExampleSatelite.exe
+C:\Sage50c\SateliteS50c\ExampleSatelite\exe\ExampleSatelite.pdb
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csprojAssemblyReference.cache
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmConfig.resources
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmMain.resources
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.GenerateResource.cache
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.CoreCompileInputs.cache
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.exe
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.pdb
+C:\sage50c\SateliteS50c\ExampleSatelite\exe\ExampleSatelite.exe.config
+C:\temp\Proyecto.SDK\ExampleSatelite\exe\ExampleSatelite.exe.config
+C:\temp\Proyecto.SDK\ExampleSatelite\exe\ExampleSatelite.exe
+C:\temp\Proyecto.SDK\ExampleSatelite\exe\ExampleSatelite.pdb
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.AssemblyReference.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmConfig.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmMain.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.GenerateResource.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.CoreCompileInputs.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.exe
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.pdb
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\exe\ExampleSatelite.exe.config
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\exe\ExampleSatelite.exe
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\exe\ExampleSatelite.pdb
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.AssemblyReference.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmConfig.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmMain.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.GenerateResource.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.exe
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\exe\ExampleSatelite.exe.config
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\exe\ExampleSatelite.exe
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\exe\ExampleSatelite.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.AssemblyReference.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.SuggestedBindingRedirects.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.exe.config
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmConfig.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.Forms.frmMain.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.GenerateResource.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.exe
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleSatelite.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite\obj\Debug\ExampleS.FFE2D0DD.Up2Date

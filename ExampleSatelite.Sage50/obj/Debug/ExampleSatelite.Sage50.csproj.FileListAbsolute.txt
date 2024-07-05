@@ -1,0 +1,45 @@
+C:\Sage50c\SateliteS50c\ExampleSatelite\exe\ExampleSatelite.Sage50.dll
+C:\Sage50c\SateliteS50c\ExampleSatelite\exe\ExampleSatelite.Sage50.pdb
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.CoreCompileInputs.cache
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.dll
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.pdb
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmMainExmaple50.resources
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.GenerateResource.cache
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmCliente.resources
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmPedidoVenta.resources
+C:\Sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmArticulo.resources
+C:\sage50c\SateliteS50c\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csprojAssemblyReference.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\exe\ExampleSatelite.Sage50.dll
+C:\temp\Proyecto.SDK\ExampleSatelite\exe\ExampleSatelite.Sage50.pdb
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.AssemblyReference.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmArticulo.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmCliente.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmMainExmaple50.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmPedidoVenta.resources
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.GenerateResource.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.CoreCompileInputs.cache
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.dll
+C:\temp\Proyecto.SDK\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.pdb
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.AssemblyReference.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmArticulo.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmCliente.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmMainExmaple50.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmPedidoVenta.resources
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.GenerateResource.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.dll
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.pdb
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\exe\ExampleSatelite.Sage50.dll
+C:\Users\gonza\Avant Leap\Clients - Documentos\2024 02 Berrilan\01 Files\Sage50\ExampleSatelite\exe\ExampleSatelite.Sage50.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\exe\ExampleSatelite.Sage50.dll
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\exe\ExampleSatelite.Sage50.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.AssemblyReference.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmArticulo.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmCliente.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmMainExmaple50.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.Visual.Forms.frmPedidoVenta.resources
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.GenerateResource.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleS.D9A10398.Up2Date
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.dll
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\ExampleSatelite.Sage50\obj\Debug\ExampleSatelite.Sage50.pdb

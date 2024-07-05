@@ -1,0 +1,6 @@
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\obj\Debug\GestProjectManager.csproj.AssemblyReference.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\obj\Debug\GestProjectManager.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\bin\Debug\GestProjectManager.dll
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\bin\Debug\GestProjectManager.pdb
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\obj\Debug\GestProjectManager.dll
+C:\Users\eduar\Documents\work\external\avantleap\berrilan\ExampleSateliteUpdatedDll\ExampleSatelite\GestProjectManager\obj\Debug\GestProjectManager.pdb
