@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestProjectManager.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestProjectManager.ConfigureDatabaseConnection
+namespace GestProjectManager.DatabaseConnection
 {
     internal class GetUserDeviceSQLServerInstances
     {
@@ -38,7 +39,7 @@ namespace GestProjectManager.ConfigureDatabaseConnection
 
                 if(DatabaseVersionNames.Count > 0)
                 {
-                    GestprojectDataValueHolder.GestprojectVersionNames = DatabaseVersionNames;
+                    ValueHolder.GestprojectVersionNames = DatabaseVersionNames;
                     Error = false;
                 }
                 else

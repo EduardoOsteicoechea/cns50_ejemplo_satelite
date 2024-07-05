@@ -1,11 +1,12 @@
-﻿using System;
+﻿using GestProjectManager.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestProjectManager.ConfigureDatabaseConnection
+namespace GestProjectManager.DatabaseConnection
 {
     internal class PromptForServerSelection : System.Windows.Forms.Form
     {
@@ -18,7 +19,7 @@ namespace GestProjectManager.ConfigureDatabaseConnection
 
             ServersComboBox = new ComboBox();
             ServersComboBox.Location = new System.Drawing.Point(20, 20);
-            ServersComboBox.Items.AddRange(GestprojectDataValueHolder.GestprojectVersionNames.ToArray());
+            ServersComboBox.Items.AddRange(ValueHolder.GestprojectVersionNames.ToArray());
             ServersComboBox.SelectedIndexChanged += ServersComboBox_SelectedIndexChanged;
             this.Controls.Add(ServersComboBox);
 
@@ -34,7 +35,7 @@ namespace GestProjectManager.ConfigureDatabaseConnection
 
         private void AcceptServerButton_Click(object sender, EventArgs e)
         {
-            GestprojectDataValueHolder.GestprojectVersionName = ServersComboBox.Text;
+            ValueHolder.GestprojectVersionName = ServersComboBox.Text;
             Error = false;
             this.Close();
         }

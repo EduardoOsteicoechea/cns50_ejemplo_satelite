@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestProjectManager.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestProjectManager.ConfigureDatabaseConnection
-{
+namespace GestProjectManager.DatabaseConnection
+{ 
     internal class GetUserDeviceData
     {
         public string WindowsIdentityDomainName { get; set; } = null;
@@ -33,13 +34,13 @@ namespace GestProjectManager.ConfigureDatabaseConnection
             if(WindowsIdentityDomainName != null && WindowsIdentityUserName != null)
             {
                 Error = false;
-                GestprojectDataValueHolder.WindowsIdentityDomainName = WindowsIdentityDomainName;
-                GestprojectDataValueHolder.WindowsIdentityUserName = WindowsIdentityUserName;
+                ValueHolder.WindowsIdentityDomainName = WindowsIdentityDomainName;
+                ValueHolder.WindowsIdentityUserName = WindowsIdentityUserName;
             }
             else if(WindowsIdentityUserName != null && WindowsIdentityDomainName == "")
             {
                 Error = false;
-                GestprojectDataValueHolder.WindowsIdentityUserName = WindowsIdentityUserName;
+                ValueHolder.WindowsIdentityUserName = WindowsIdentityUserName;
             }
             else if(WindowsIdentityUserName == "")
             {

@@ -1,4 +1,5 @@
-﻿using GestProjectManager.ConfigureDatabaseConnection;
+﻿using GestProjectManager.DatabaseConnection;
+using GestProjectManager.DataFilters;
 using System.Windows.Forms;
 
 namespace GestProjectManager
@@ -7,35 +8,31 @@ namespace GestProjectManager
     {
         static ProvideSincronizableItems()
         {
-            
-            GetUserDeviceData userDeviceData = new GetUserDeviceData();
-            if(!userDeviceData.Error)
+            if(!new DatabaseConnectionWorkflow().Error)
             {
-                GetUserDeviceSQLServerInstances userDeviceSQLServerInstances = new GetUserDeviceSQLServerInstances();
-                if(!userDeviceSQLServerInstances.Error)
+                if(!new GatherDataFiltersWokflow().Error)
                 {
-                    PromptForServerSelection promptForServerSelection = new PromptForServerSelection();
-                    if(!promptForServerSelection.Error)
-                    {
-                        CreateConnectionString createConnectionString = new CreateConnectionString();
-                        if(!createConnectionString.Error)
-                        {
-                            ConnectToGestProjectDatabase connectToGestProjectDatabase = new ConnectToGestProjectDatabase();
-                            if(!connectToGestProjectDatabase.Error)
-                            {
-                                MessageBox.Show("Gestproject database connection workflow successfully executed.");
-                            }
-                        }
-                    }
+                    //if(!new GatherFilteredDataWokflow().Error)
+                    //{
+                    //    if(!new ValidateDataWokflow().Error)
+                    //    {
+                    //        if(!new StoreNonConformantDataWokflow().Error)
+                    //        {
+                    //            if(!new IndicateNonConformantDataWokflow().Error)
+                    //            {
+                    //                if(!new StoreConformantDataWokflow().Error)
+                    //                {
+                    //                    if(!new PrepareConformantDataForSincronizationWokflow().Error)
+                    //                    {
+                    //                        //new GatherDataFiltersWokflow();
+                    //                    };
+                    //                };
+                    //            };
+                    //        };
+                    //    };
+                    //};
                 };
             };
-            //new GatherDataFilters();
-            //new GatherFilteredData();
-            //new ValidateData();
-            //new StoreNonConformantData();
-            //new IndicateNonConformantData();
-            //new StoreConformantData();
-            //new PrepareConformantDataForSincronization();
         }
     }
 }
