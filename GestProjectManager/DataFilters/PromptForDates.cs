@@ -134,7 +134,9 @@ namespace GestProjectManager.DataFilters
                 ValueHolder.FilterEndDate = EndDateDateTimePicker.Value;
             };
 
-            MessageBox.Show(ValueHolder.FilterDatesType + "\n" + ValueHolder.FilterStartDate + "\n" + ValueHolder.FilterEndDate);
+            //MessageBox.Show(ValueHolder.FilterDatesType + "\n" + ValueHolder.FilterStartDate + "\n" + ValueHolder.FilterEndDate);
+
+            Error = false;
 
             this.Close();
         }

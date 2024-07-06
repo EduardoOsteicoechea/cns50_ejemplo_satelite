@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|c:\\users\\eduar\\documents\\work\\external\\avantleap\\berrilan\\examplesateliteupdateddll\\examplesatelite\\gestprojectmanager\\data\\createparameterizedselectsqlcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|solutionrelative:gestprojectmanager\\data\\createparameterizedselectsqlcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|c:\\users\\eduar\\documents\\work\\external\\avantleap\\berrilan\\examplesateliteupdateddll\\examplesatelite\\gestprojectmanager\\datafilters\\promptfordates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|solutionrelative:gestprojectmanager\\datafilters\\promptfordates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|c:\\users\\eduar\\documents\\work\\external\\avantleap\\berrilan\\examplesateliteupdateddll\\examplesatelite\\gestprojectmanager\\data\\valueholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|solutionrelative:gestprojectmanager\\data\\valueholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|c:\\users\\eduar\\documents\\work\\external\\avantleap\\berrilan\\examplesateliteupdateddll\\examplesatelite\\gestprojectmanager\\styles\\styles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|solutionrelative:gestprojectmanager\\styles\\styles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|c:\\users\\eduar\\documents\\work\\external\\avantleap\\berrilan\\examplesateliteupdateddll\\examplesatelite\\gestprojectmanager\\data\\databasetablesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3F967E-1083-4AAC-B1BE-B40F1FA068C0}|GestProjectManager\\GestProjectManager.csproj|solutionrelative:gestprojectmanager\\data\\databasetablesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValueHolder.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\ValueHolder.cs",
-              "RelativeDocumentMoniker": "GestProjectManager\\Data\\ValueHolder.cs",
-              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\ValueHolder.cs",
-              "RelativeToolTip": "GestProjectManager\\Data\\ValueHolder.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvx4AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:20:43.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Styles.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Styles\\Styles.cs",
-              "RelativeDocumentMoniker": "GestProjectManager\\Styles\\Styles.cs",
-              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Styles\\Styles.cs",
-              "RelativeToolTip": "GestProjectManager\\Styles\\Styles.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswA4AAABJAAAA",
+              "Title": "DatabaseTablesData.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\DatabaseTablesData.cs",
+              "RelativeDocumentMoniker": "GestProjectManager\\Data\\DatabaseTablesData.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\DatabaseTablesData.cs",
+              "RelativeToolTip": "GestProjectManager\\Data\\DatabaseTablesData.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowGAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:42:30.681Z",
+              "WhenOpened": "2024-07-06T11:06:15.393Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateParameterizedSelectSQLCommand.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\CreateParameterizedSelectSQLCommand.cs",
+              "RelativeDocumentMoniker": "GestProjectManager\\Data\\CreateParameterizedSelectSQLCommand.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\Data\\CreateParameterizedSelectSQLCommand.cs",
+              "RelativeToolTip": "GestProjectManager\\Data\\CreateParameterizedSelectSQLCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T13:45:37.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PromptForDates.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\DataFilters\\PromptForDates.cs",
               "RelativeDocumentMoniker": "GestProjectManager\\DataFilters\\PromptForDates.cs",
               "ToolTip": "C:\\Users\\eduar\\Documents\\work\\external\\avantleap\\berrilan\\ExampleSateliteUpdatedDll\\ExampleSatelite\\GestProjectManager\\DataFilters\\PromptForDates.cs",
               "RelativeToolTip": "GestProjectManager\\DataFilters\\PromptForDates.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAswFIAAAA5AAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswHcAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:40:30.794Z",
+              "WhenOpened": "2024-07-06T13:38:44.605Z",
               "EditorCaption": ""
             }
           ]

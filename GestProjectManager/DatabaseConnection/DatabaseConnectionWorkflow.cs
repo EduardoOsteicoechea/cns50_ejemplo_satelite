@@ -22,7 +22,7 @@ namespace GestProjectManager.DatabaseConnection
                         {
                             if(!new ConnectToGestProjectDatabase().Error)
                             {
-                                MessageBox.Show("Gestproject database connection workflow successfully executed.");
+                                //MessageBox.Show("Gestproject database connection workflow successfully executed.");
                                 Error = false;
                             };
                         };

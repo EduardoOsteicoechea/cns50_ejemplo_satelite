@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace GestProjectManager.DataFilters
 {
@@ -13,10 +14,10 @@ namespace GestProjectManager.DataFilters
         {
             if(!new PromptForDates().Error)
             {
-                //if(!new CreateSQLCommandConditional().Error)
-                //{
+                if(!new CreateSQLCommandConditional().Error)
+                {
 
-                //}
+                }
             }
         }
     }

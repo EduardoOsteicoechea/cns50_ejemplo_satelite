@@ -29,7 +29,7 @@ namespace GestProjectManager.DatabaseConnection
             connectionString += $"Trusted_Connection=true;";
 
             ValueHolder.ConnectionString = connectionString;
-            MessageBox.Show(ValueHolder.ConnectionString);
+
             Error = false;
         }
     }
