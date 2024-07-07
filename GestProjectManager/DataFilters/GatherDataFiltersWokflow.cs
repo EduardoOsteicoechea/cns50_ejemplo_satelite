@@ -14,9 +14,12 @@ namespace GestProjectManager.DataFilters
         {
             if(!new PromptForDates().Error)
             {
-                if(!new CreateSQLCommandConditional().Error)
+                if(!new CreateSelectSQLCommands().Error)
                 {
+                    if(!new ExecuteSelectSQLCommands().Error)
+                    {
 
+                    }
                 }
             }
         }

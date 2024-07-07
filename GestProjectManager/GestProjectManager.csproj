@@ -53,13 +53,16 @@
     <Compile Include="DatabaseConnection\PromptForServerSelection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataFilters\CreateSQLCommandConditional.cs" />
+    <Compile Include="DataFilters\ExecuteSelectSQLCommands.cs" />
+    <Compile Include="DataFilters\CreateSelectSQLCommands.cs" />
     <Compile Include="DataFilters\GatherDataFiltersWokflow.cs" />
     <Compile Include="DataFilters\PromptForDates.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Data\CreateParameterizedSelectSQLCommand.cs" />
+    <Compile Include="Data\ExecuteSelectSQLCommand.cs" />
+    <Compile Include="Data\CreateSelectSQLCommandString.cs" />
     <Compile Include="Data\DatabaseTablesData.cs" />
+    <Compile Include="Data\PrintClassProperties.cs" />
     <Compile Include="Data\ValueHolder.cs" />
     <Compile Include="ManageSincronizationResult.cs" />
     <Compile Include="DatabaseConnection\GetUserDeviceData.cs" />

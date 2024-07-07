@@ -11,50 +11,47 @@ using System.Windows.Forms;
 
 namespace GestProjectManager.DataFilters
 {
-    internal class CreateSQLCommandConditional
+    internal class CreateSelectSQLCommands
     {
         public bool Error { get; set; } = true;
-        public CreateSQLCommandConditional() 
+        public CreateSelectSQLCommands() 
         {
-            
-            ValueHolder.SQLConnection.Open();
-
-            new CreateParameterizedSelectSQLCommand(
+            ValueHolder.ClientesSelectCommand = new CreateSelectSQLCommandString(
                 ClientesTableData.FieldsToQuery,
                 ClientesTableData.DateFilterableField1,
                 ClientesTableData.Table1Name,
                 ValueHolder.FilterDatesType
-            );
+            ).CommandString;
 
-            new CreateParameterizedSelectSQLCommand(
+            ValueHolder.ProveedoresSelectCommand = new CreateSelectSQLCommandString(
                 ProveedoresTableData.FieldsToQuery,
                 ProveedoresTableData.DateFilterableField1,
                 ProveedoresTableData.Table1Name,
                 ValueHolder.FilterDatesType
-            );
+            ).CommandString;
 
-            new CreateParameterizedSelectSQLCommand(
+            ValueHolder.ImpuestosSelectCommand = new CreateSelectSQLCommandString(
                 ImpuestosTableData.FieldsToQuery,
                 ImpuestosTableData.DateFilterableField1,
                 ImpuestosTableData.Table1Name,
                 ValueHolder.FilterDatesType
-            );
+            ).CommandString;
 
-            new CreateParameterizedSelectSQLCommand(
+            ValueHolder.ProyectosSelectCommand = new CreateSelectSQLCommandString(
                 ProyectosTableData.FieldsToQuery,
                 ProyectosTableData.DateFilterableField1,
                 ProyectosTableData.Table1Name,
                 ValueHolder.FilterDatesType
-            );
+            ).CommandString;
 
-            new CreateParameterizedSelectSQLCommand(
+            ValueHolder.FacturasEmitidasSelectCommand = new CreateSelectSQLCommandString(
                 FacturasEmitidasTableData.FieldsToQuery,
                 FacturasEmitidasTableData.DateFilterableField1,
                 FacturasEmitidasTableData.Table1Name,
                 ValueHolder.FilterDatesType
-            );
+            ).CommandString;
 
-            ValueHolder.SQLConnection.Close();    
+            Error = false;
         }
     }
 }
