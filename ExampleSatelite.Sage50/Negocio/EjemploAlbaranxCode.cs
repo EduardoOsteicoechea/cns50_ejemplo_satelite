@@ -146,7 +146,6 @@ namespace ExampleSatelite.Sage50.Negocio
             _AddObjetoLinea();
 
             llOk = this._oAlbaranVenta._Create(this._oEntidad);
-
         }
 
 

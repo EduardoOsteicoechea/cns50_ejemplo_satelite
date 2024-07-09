@@ -21,25 +21,6 @@ namespace GestProjectManager.DatabaseConnection
             {
                 Error = false;
             };
-
-
-            //connection.Open();
-            //string aa = "";
-
-            //using(SqlCommand command = new SqlCommand("SELECT * FROM PARTICIPANTE", connection))
-            //{
-            //    using(SqlDataReader reader = command.ExecuteReader())
-            //    {
-            //        while(reader.Read())
-            //        {
-            //            aa += reader.GetString(0) + "\n";
-            //        }
-            //    }
-            //}
-
-            //MessageBox.Show(aa);
-
-            connection.Close();
         }
     }
 }

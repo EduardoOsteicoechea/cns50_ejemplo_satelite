@@ -10,15 +10,18 @@ using System.Windows.Forms;
 
 using ExampleSatelite.Sage50.Negocio;
 using ExampleSatelite.Sage50.Visual.Forms;
+using GestProjectManager;
+using sage.ew.db;
 
 namespace ExampleSatelite.Forms
 {
     public partial class frmMain : Form
     {
-        LinkSage50 _oLinkS50 = null;
+        ExampleSatelite.Sage50.Negocio.LinkSage50 _oLinkS50 = null;
 
         public frmMain()
         {
+
             InitializeComponent();
         }
 
@@ -67,7 +70,6 @@ namespace ExampleSatelite.Forms
                     _oLinkS50 = null;
                 }
             }
-
         }
 
 

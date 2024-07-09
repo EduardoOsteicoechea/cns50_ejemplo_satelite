@@ -34,6 +34,21 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="sage.50">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.50.exe</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.db">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.db.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.images">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.images.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.lic">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.lic.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.reports">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.reports.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -53,23 +68,32 @@
     <Compile Include="DatabaseConnection\PromptForServerSelection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataFilters\ExecuteSelectSQLCommands.cs" />
-    <Compile Include="DataFilters\CreateSelectSQLCommands.cs" />
-    <Compile Include="DataFilters\GatherDataFiltersWokflow.cs" />
-    <Compile Include="DataFilters\PromptForDates.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data\ExecuteSelectSQLCommand.cs" />
-    <Compile Include="Data\CreateSelectSQLCommandString.cs" />
-    <Compile Include="Data\DatabaseTablesData.cs" />
+    <Compile Include="Data\BaseMaster.cs" />
+    <Compile Include="Data\clsDatos.cs" />
+    <Compile Include="Data\clsEntidades.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\LinkSage50.cs" />
+    <Compile Include="Data\Sage50_Models.cs" />
+    <Compile Include="GatherFilteredData\ExecuteSelectSQLCommands.cs" />
+    <Compile Include="GatherFilteredData\CreateSelectSQLCommands.cs" />
+    <Compile Include="GatherFilteredData\GatherFilteredDataWokflow.cs" />
+    <Compile Include="GatherFilteredData\GenerateFilteredDataViews.cs" />
+    <Compile Include="GatherFilteredData\GenerateFilteredDataView.cs" />
+    <Compile Include="GatherFilteredData\PromptForDates.cs" />
+    <Compile Include="GatherFilteredData\ExecuteSelectSQLCommand.cs" />
+    <Compile Include="GatherFilteredData\CreateSelectSQLCommandString.cs" />
+    <Compile Include="Data\Gestproject_models.cs" />
     <Compile Include="Data\PrintClassProperties.cs" />
     <Compile Include="Data\ValueHolder.cs" />
+    <Compile Include="ManageSincronizationResult - Copy.cs" />
     <Compile Include="ManageSincronizationResult.cs" />
     <Compile Include="DatabaseConnection\GetUserDeviceData.cs" />
     <Compile Include="ProvideSincronizableItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Styles\Styles.cs" />
+    <Compile Include="ValidateData\CompareClients.cs" />
+    <Compile Include="ValidateData\SincronizersModels.cs" />
+    <Compile Include="ValidateData\ValidateDataWorkflow.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

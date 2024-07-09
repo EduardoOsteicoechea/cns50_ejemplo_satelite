@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -52,5 +53,14 @@ namespace GestProjectManager.Data
         internal static List<Impuesto> ImpuestoClassList { get; set; } = new List<Impuesto>();
         internal static List<Proyecto> ProyectoClassList { get; set; } = new List<Proyecto>();
         internal static List<FacturaEmitida> FacturaEmitidaClassList { get; set; } = new List<FacturaEmitida>();
+
+        // Get sage50 Clients
+        // Get sage50 Clients
+        // Get sage50 Clients
+        // Get sage50 Clients
+        // Get sage50 Clients
+        // Get sage50 Clients
+        public static DataTable Sage50ClientsTable { get; set; } = new DataTable();
+        public static System.Windows.Forms.Form Sage50ClientForm { get; set; } = null;
     }
 }

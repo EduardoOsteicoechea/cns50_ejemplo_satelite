@@ -77,6 +77,26 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="sage.50, Version=50.7830.4.0, Culture=neutral, PublicKeyToken=96ae376547cf7c42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.50.exe</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.db, Version=50.7830.4.0, Culture=neutral, PublicKeyToken=96ae376547cf7c42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.db.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.images, Version=50.7830.4.0, Culture=neutral, PublicKeyToken=96ae376547cf7c42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.images.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.lic, Version=50.7830.4.0, Culture=neutral, PublicKeyToken=96ae376547cf7c42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.lic.dll</HintPath>
+    </Reference>
+    <Reference Include="sage.ew.reports, Version=50.7830.4.0, Culture=neutral, PublicKeyToken=96ae376547cf7c42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Sage50_7\Sage50Term\50.7830.4\sage.ew.reports.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />

@@ -36,44 +36,44 @@ namespace ExampleSatelite
         static void Main(string[] args)
         {
 
-            new ProvideSincronizableItems();
+            //new ProvideSincronizableItems();
 
-            //Boolean llOkAuto = false;
+            Boolean llOkAuto = false;
 
-            //// Establecemos la clase de configuración
-            //_oConfig = new clsConfig();
+            // Establecemos la clase de configuración
+            _oConfig = new clsConfig();
 
-            ////// control para saber si, se está ejecutando el programa más de una vez.
-            ////Process[] processes = Process.GetProcessesByName("ExampleSatelite");
-            ////bool _benEjecucion = (processes.Length > 1);
+            //// control para saber si, se está ejecutando el programa más de una vez.
+            //Process[] processes = Process.GetProcessesByName("ExampleSatelite");
+            //bool _benEjecucion = (processes.Length > 1);
 
-            //_sfileConfig = "examplesatelite.ini";
-            //_sdirectoryPath = Application.StartupPath;
+            _sfileConfig = "examplesatelite.ini";
+            _sdirectoryPath = Application.StartupPath;
 
-            //_oConfig._FileConfig = _sfileConfig;
-            //_oConfig._PathConfig = _sdirectoryPath;
-            //_oConfig._LoadConfig();
+            _oConfig._FileConfig = _sfileConfig;
+            _oConfig._PathConfig = _sdirectoryPath;
+            _oConfig._LoadConfig();
 
-            //// Carpeta del terminal de Sage50
-            //_CargarCarpetaSage50();
+            // Carpeta del terminal de Sage50
+            _CargarCarpetaSage50();
 
-            //llOkAuto = _ObtenerParametros(args);
+            llOkAuto = _ObtenerParametros(args);
 
-            //// Se debe ejecutar visualmente
-            //if(llOkAuto == false)
-            //{
-            //    Application.EnableVisualStyles();
-            //    Application.SetCompatibleTextRenderingDefault(false);
+            // Se debe ejecutar visualmente
+            if(llOkAuto == false)
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
 
-            //    // cargamos el formulario de menú principal
-            //    Application.Run(new frmMain());
-            //}
-            //else
-            //{
-            //    // ejecutar procesos automáticos
-            //}
+                // cargamos el formulario de menú principal
+                Application.Run(new frmMain());
+            }
+            else
+            {
+                // ejecutar procesos automáticos
+            }
 
-            //_oConfig = null;
+            _oConfig = null;
 
         }
 

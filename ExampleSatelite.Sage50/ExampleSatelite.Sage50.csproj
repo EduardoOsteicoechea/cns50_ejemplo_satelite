@@ -132,6 +132,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="AvantLeap\Styles\EOStyles.cs" />
+    <Compile Include="DataHolder.cs" />
     <Compile Include="Datos\clsDatos.cs" />
     <Compile Include="Datos\clsEntidades.cs" />
     <Compile Include="Negocio\BaseDocument.cs" />
@@ -171,7 +172,12 @@
       <DependentUpon>frmPedidoVenta.cs</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\GestProjectManager\GestProjectManager.csproj">
+      <Project>{3d3f967e-1083-4aac-b1be-b40f1fa068c0}</Project>
+      <Name>GestProjectManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.CSharp" />

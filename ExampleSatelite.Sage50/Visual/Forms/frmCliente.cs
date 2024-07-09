@@ -14,6 +14,9 @@ using sage.ew.global.Diccionarios;
 //
 using ExampleSatelite.Sage50.Negocio;
 using ExampleSatelite.Sage50.Datos;
+using ExampleSatelite.Sage50.DataHolders;
+using GestProjectManager.Data;
+using GestProjectManager;
 
 namespace ExampleSatelite.Sage50.Visual.Forms
 {
@@ -38,12 +41,16 @@ namespace ExampleSatelite.Sage50.Visual.Forms
 
             _ControlesFicha(false);
             _Binding();
+
+            ValueHolder.Sage50ClientsTable = new ExampleSatelite.Sage50.Negocio.Customer()._LoadTable("");
+            ValueHolder.Sage50ClientForm = this;
+            new ProvideSincronizableItems();
         }
 
-        private void _CrearEntidad()
+        public void _CrearEntidad()
         {
             _oEntidad = new clsEntityCustomer();
-        }
+        }  
         
 
         private void cmdRefrescar_Click(object sender, EventArgs e)
