@@ -52,7 +52,6 @@ namespace ExampleSatelite.Sage50.Negocio
 
             if (_llSerFact)
                 _oEntidad.Cabecera.letra = "SF";
-
         }
 
 

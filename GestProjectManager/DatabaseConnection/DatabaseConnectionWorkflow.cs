@@ -16,8 +16,8 @@ namespace GestProjectManager.DatabaseConnection
             {
                 if(!new GetUserDeviceSQLServerInstances().Error)
                 {
-                    if(!new PromptForServerSelection().Error)
-                    {
+                    //if(!new PromptForServerSelection().Error)
+                    //{
                         if(!new CreateConnectionString().Error)
                         {
                             if(!new ConnectToGestProjectDatabase().Error)
@@ -26,7 +26,7 @@ namespace GestProjectManager.DatabaseConnection
                                 Error = false;
                             };
                         };
-                    };
+                    //};
                 };
             };
         }

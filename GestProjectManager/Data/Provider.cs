@@ -24,7 +24,7 @@ using ExampleSatelite.Sage50.Datos;
 
 namespace ExampleSatelite.Sage50.Negocio
 {
-    public class Customer : BaseMaster
+    public class Sage50ProviderSampleClass : BaseMaster
     {
         #region propiedades
 
@@ -35,7 +35,7 @@ namespace ExampleSatelite.Sage50.Negocio
         #endregion propiedades
 
         #region constructor
-        public Customer()
+        public Sage50ProviderSampleClass()
         {
             psDb = "gestion";
             psTable = "proveed";
@@ -46,11 +46,11 @@ namespace ExampleSatelite.Sage50.Negocio
         {
             bool llOk = false;
 
-            if (toeCustomer != null)
+            if(toeCustomer != null)
             {
-                if (!string.IsNullOrWhiteSpace(toeCustomer.codigo) && toeCustomer.codigo.Trim().Length == _nDigitos)
+                if(!string.IsNullOrWhiteSpace(toeCustomer.codigo) && toeCustomer.codigo.Trim().Length == _nDigitos)
                 {
-                    if (FUNCTIONS._Es_Cliente(toeCustomer.codigo))
+                    if(FUNCTIONS._Es_Cliente(toeCustomer.codigo))
                     {
                         _oCliente = new Cliente();
                         _oCliente._Codigo = toeCustomer.codigo;
@@ -77,9 +77,9 @@ namespace ExampleSatelite.Sage50.Negocio
                     { this._Error_Message += _oCliente._Error_Message + "\r\n"; }
                 }
                 else
-                { this._Error_Message += "No se a indicado el códgo del cliente o la longitud del codigo es diferente a "+ _nDigitos + " digitos \r\n"; }
-                
-               
+                { this._Error_Message += "No se a indicado el códgo del cliente o la longitud del codigo es diferente a " + _nDigitos + " digitos \r\n"; }
+
+
             }
 
             return llOk;
@@ -98,21 +98,21 @@ namespace ExampleSatelite.Sage50.Negocio
             string lsPais = string.Empty, lsCodPos = string.Empty, lsTipoIva = string.Empty, lsTipoRet = string.Empty;
             this._Error_Message = string.Empty;
 
-            if (toeCustomer != null)
+            if(toeCustomer != null)
             {
-                if (!string.IsNullOrWhiteSpace(toeCustomer.codigo) && !string.IsNullOrWhiteSpace(toeCustomer.nombre) && toeCustomer.codigo.Trim().Length == _nDigitos)
+                if(!string.IsNullOrWhiteSpace(toeCustomer.codigo) && !string.IsNullOrWhiteSpace(toeCustomer.nombre) && toeCustomer.codigo.Trim().Length == _nDigitos)
                 {
                     // comprobamos que el codigo ingresado sea del tipo valido para cliente.
-                    if (FUNCTIONS._Es_Cliente(toeCustomer.codigo))
+                    if(FUNCTIONS._Es_Cliente(toeCustomer.codigo))
                     {
                         _oCliente = new Cliente();
                         _oCliente._Codigo = toeCustomer.codigo;
 
-                        if (!_oCliente._Existe_Registro())
+                        if(!_oCliente._Existe_Registro())
                         {
                             _oCliente._New(toeCustomer.codigo);
 
-                            if (Convert.ToBoolean(toeCustomer.contado) == true)
+                            if(Convert.ToBoolean(toeCustomer.contado) == true)
                             {
                                 // si es una cuenta de cliente contado (creamos la cuenta con valores fijos.. previsionalmente)
                                 _oCliente._ClienteContado = toeCustomer.contado;
@@ -127,8 +127,10 @@ namespace ExampleSatelite.Sage50.Negocio
                                 // Tratamiento de codigo de país
                                 _ConvertData("pais", toeCustomer, ref _oCliente);
 
-                                if (!string.IsNullOrWhiteSpace(toeCustomer.cif)) _oCliente._NIF = toeCustomer.cif;
-                                if (!string.IsNullOrWhiteSpace(toeCustomer.fpago)) _oCliente._FormaPago = toeCustomer.fpago;
+                                if(!string.IsNullOrWhiteSpace(toeCustomer.cif))
+                                    _oCliente._NIF = toeCustomer.cif;
+                                if(!string.IsNullOrWhiteSpace(toeCustomer.fpago))
+                                    _oCliente._FormaPago = toeCustomer.fpago;
                             }
 
                             _oCliente._RazonComercial = toeCustomer.razoncomercial;
@@ -152,12 +154,12 @@ namespace ExampleSatelite.Sage50.Negocio
 
                             // Grabamos el cliente
                             llOk = _oCliente._Save();
-                            if (llOk)
+                            if(llOk)
                             {
                                 // Si le enviamos la coleccion del mandato del cliente, la agregamos
-                                if (toeCustomer.mandato != null)
+                                if(toeCustomer.mandato != null)
                                 {
-                                    if (string.IsNullOrEmpty(toeCustomer.cliente))
+                                    if(string.IsNullOrEmpty(toeCustomer.cliente))
                                         toeCustomer.cliente = toeCustomer.codigo;
 
                                     this._MandateCustomer(toeCustomer.mandato);
@@ -173,7 +175,7 @@ namespace ExampleSatelite.Sage50.Negocio
                         else
                         { this._Error_Message += "El código de cliente ya existe\r\n"; }
                     }
-                 }
+                }
 
                 _oCliente = null;
             }
@@ -187,7 +189,7 @@ namespace ExampleSatelite.Sage50.Negocio
             bool llOk = false;
             this._Error_Message = string.Empty;
 
-            if (toeCustomer != null)
+            if(toeCustomer != null)
             {
                 _oCliente = new Cliente();
                 _oCliente._Codigo = toeCustomer.codigo;
@@ -219,12 +221,12 @@ namespace ExampleSatelite.Sage50.Negocio
 
                 // Grabamos el cliente
                 llOk = _oCliente._Save();
-                if (llOk)
+                if(llOk)
                 {
                     // Si le enviamos la coleccion del mandato del cliente, la agregamos
-                    if (toeCustomer.mandato != null)
+                    if(toeCustomer.mandato != null)
                     {
-                        if (string.IsNullOrEmpty(toeCustomer.cliente))
+                        if(string.IsNullOrEmpty(toeCustomer.cliente))
                             toeCustomer.cliente = toeCustomer.codigo;
 
                         this._MandateCustomer(toeCustomer.mandato);
@@ -246,13 +248,13 @@ namespace ExampleSatelite.Sage50.Negocio
             bool llOk = false;
             this._Error_Message = string.Empty;
 
-            if (toeCustomer != null)
+            if(toeCustomer != null)
             {
                 _oCliente = new Cliente(toeCustomer.codigo);
 
                 llOk = _oCliente._Delete();
 
-                if (!llOk)
+                if(!llOk)
                     this._Error_Message += _oCliente._Error_Message + "\r\n";
             }
 
@@ -272,7 +274,7 @@ namespace ExampleSatelite.Sage50.Negocio
 
             loVista._Requery(_Filtro);
 
-            if (loVista._Reccount == 0)
+            if(loVista._Reccount == 0)
             {
                 // Insert
                 lsSQL = "Select a.nombre, a.cif, a.direccion, a.poblacion, a.pais, a.codpost as codpos, b.codigo as banc_cli, b.iban, b.cuentaiban, b.swift " +
@@ -349,7 +351,7 @@ namespace ExampleSatelite.Sage50.Negocio
         {
             decimal lnTotal = 0M;
 
-            if (!string.IsNullOrEmpty(tsCliente.Trim()))
+            if(!string.IsNullOrEmpty(tsCliente.Trim()))
             {
                 _oCliente = new Cliente(tsCliente);
                 clsLimiteCredito loLimiteCredito = _oCliente._LimiteCredito;
@@ -367,7 +369,7 @@ namespace ExampleSatelite.Sage50.Negocio
                 // decimal lnTotalEfectos = loLimiteCredito._TotalEfectos;
                 //decimal lnTotal1 = loLimiteCredito._Total;
                 loLimiteCredito._Calcular();
-                
+
                 lnTotal = _oCliente.LimiteCredito() - loLimiteCredito._Total;
 
             }
@@ -381,11 +383,11 @@ namespace ExampleSatelite.Sage50.Negocio
             decimal lnCredito = 0M;
             decimal lnTotal = 0M;
 
-            if (!string.IsNullOrEmpty(tsCliente.Trim()))
+            if(!string.IsNullOrEmpty(tsCliente.Trim()))
             {
                 _oCliente = new Cliente(tsCliente);
                 lnCredito = _oCliente._Credito;
-                if (lnCredito > 0)
+                if(lnCredito > 0)
                 {
 
                     clsLimiteCredito loLimiteCredito = _oCliente._LimiteCredito;
@@ -404,21 +406,21 @@ namespace ExampleSatelite.Sage50.Negocio
 
         private void _ConvertData(string tsTipo, dynamic toeCustomer, ref Cliente toCliente)
         {
-            switch (tsTipo.ToLower())
+            switch(tsTipo.ToLower())
             {
                 case "pais":
                     string lsPais = _oLinkFuncs._VerificateCountry(toeCustomer.pais);
-                    if (!string.IsNullOrWhiteSpace(lsPais))
+                    if(!string.IsNullOrWhiteSpace(lsPais))
                         toCliente._Pais = lsPais;
                     else
                         this._Error_Message += string.Format("¡El pais {0} no existe!", toeCustomer.pais) + "\r\n";
                     break;
 
                 case "codpos":
-                    if (!string.IsNullOrWhiteSpace(toeCustomer.codpos))
+                    if(!string.IsNullOrWhiteSpace(toeCustomer.codpos))
                     {
                         string lsCodPos = _oLinkFuncs._VerificatePostalCode(toeCustomer.codpos);
-                        if (!string.IsNullOrWhiteSpace(lsCodPos))
+                        if(!string.IsNullOrWhiteSpace(lsCodPos))
                             toCliente._CodPost = lsCodPos;
                         else
                             this._Error_Message += string.Format("¡El código postal {0} no existe!", toeCustomer.codpos) + "\r\n";
@@ -426,10 +428,10 @@ namespace ExampleSatelite.Sage50.Negocio
                     break;
 
                 case "tipo_iva":
-                    if (!string.IsNullOrWhiteSpace(toeCustomer.tipo_iva))
+                    if(!string.IsNullOrWhiteSpace(toeCustomer.tipo_iva))
                     {
                         string lsTipoIva = _oLinkFuncs._VerificateTaxType(toeCustomer.tipo_iva);
-                        if (!string.IsNullOrWhiteSpace(lsTipoIva))
+                        if(!string.IsNullOrWhiteSpace(lsTipoIva))
                             toCliente._TipoIVA = lsTipoIva;
                         else
                             this._Error_Message += string.Format("¡El tipo de iva {0} no existe!", toeCustomer.tipo_iva) + "\r\n";
@@ -437,14 +439,14 @@ namespace ExampleSatelite.Sage50.Negocio
                     break;
 
                 case "tipo_ret":
-                    if (!string.IsNullOrWhiteSpace(toeCustomer.tipo_ret))
+                    if(!string.IsNullOrWhiteSpace(toeCustomer.tipo_ret))
                     {
                         string lsTipoRet = _oLinkFuncs._VerificateRetentionType(toeCustomer.tipo_ret);
-                        if (!string.IsNullOrWhiteSpace(lsTipoRet))
+                        if(!string.IsNullOrWhiteSpace(lsTipoRet))
                         {
                             toCliente._RetencionTipo = lsTipoRet;
 
-                            if (toeCustomer.modoret == 2)
+                            if(toeCustomer.modoret == 2)
                                 toCliente._RetencionBaseFactura = Cliente.TipoRetencion.SobreFactura;
                             else
                                 toCliente._RetencionBaseFactura = Cliente.TipoRetencion.SobreBase;
@@ -457,7 +459,7 @@ namespace ExampleSatelite.Sage50.Negocio
                     break;
 
                 case "iban":
-                    if (!string.IsNullOrWhiteSpace(toeCustomer.iban))
+                    if(!string.IsNullOrWhiteSpace(toeCustomer.iban))
                     {
                         clsBankAccount loCtaBanco = new clsBankAccount();
 

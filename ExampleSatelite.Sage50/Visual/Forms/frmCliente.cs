@@ -22,40 +22,34 @@ namespace ExampleSatelite.Sage50.Visual.Forms
 {
     public partial class frmCliente : Form
     {
-
-        Customer _oCustomer = new Customer();
-
+        Sage50ProviderSampleClass _oCustomer = new Sage50ProviderSampleClass();
+        //Customer _oCustomer = new Customer();
         public dynamic _oEntidad;
-
         private bool EditandoFicha = false;
         private bool NuevaFicha = false;
-
         private int _nDigitos = Convert.ToInt32(sage.ew.global.EW_GLOBAL._GetLenCampo(KeyDiccionarioLenCampos.wn_digitos));
         private string _codigo = string.Empty;
+
         public frmCliente()
         {
             _CrearEntidad();
-            
             InitializeComponent();
             this.textBox1.MaxLength = _nDigitos;
-
             _ControlesFicha(false);
             _Binding();
 
-            ValueHolder.Sage50ClientsTable = new ExampleSatelite.Sage50.Negocio.Customer()._LoadTable("");
-            ValueHolder.Sage50ClientForm = this;
             new ProvideSincronizableItems();
         }
 
+
         public void _CrearEntidad()
         {
-            _oEntidad = new clsEntityCustomer();
+            _oEntidad = new clsEntityProvider();
+            //_oEntidad = new clsEntityCustomer();
         }  
-        
 
         private void cmdRefrescar_Click(object sender, EventArgs e)
         {
-
             string lsWhere = "", lsSelect = "";
             DataTable loData = new DataTable();
 
@@ -67,7 +61,6 @@ namespace ExampleSatelite.Sage50.Visual.Forms
             dataGridView1.Columns.Clear();
             dataGridView1.DataSource = loData;
             dataGridView1.Refresh();
-
         }
 
         private void textBox1_Validated(object sender, EventArgs e)
@@ -122,7 +115,6 @@ namespace ExampleSatelite.Sage50.Visual.Forms
             }
         }
 
-
         public override void Refresh()
         {
             base.Refresh();
@@ -140,7 +132,6 @@ namespace ExampleSatelite.Sage50.Visual.Forms
             this._DataBindinAdd(textBox7, "Text", _oEntidad, "cif", true);
         }
 
-
         private void _ControlesFicha(bool tlBloquear = false)
         {
             this.textBox1.Enabled = !tlBloquear;
@@ -150,10 +141,8 @@ namespace ExampleSatelite.Sage50.Visual.Forms
             this.textBox5.Enabled = tlBloquear;
             this.textBox6.Enabled = tlBloquear;
             this.textBox7.Enabled = tlBloquear;
-
             this.btnBorrar.Enabled = !tlBloquear;
         }
-
 
         public void _DataBindinAdd(dynamic toObjeto, string tcPropiedad, dynamic toDataSource, string tcDataMember, Boolean tlFormattingEnabled = false)
         {
@@ -177,7 +166,7 @@ namespace ExampleSatelite.Sage50.Visual.Forms
                     else
                     {
                         _oCustomer._Update(_oEntidad);
-                    }
+                    };
                     btnFichaEditarAceptar.Text = "Editar";
                     _ControlesFicha(false);
                     EditandoFicha = false;
@@ -189,8 +178,8 @@ namespace ExampleSatelite.Sage50.Visual.Forms
                     _ControlesFicha(true);
                     btnFichaEditarAceptar.Text = "Aceptar";
                     textBox7.Focus();
-                }
-            }
+                };
+            };
         }
 
         private void btnFichaCancelar_Click(object sender, EventArgs e)

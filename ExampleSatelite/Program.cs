@@ -74,7 +74,6 @@ namespace ExampleSatelite
             }
 
             _oConfig = null;
-
         }
 
 

@@ -71,6 +71,7 @@
     <Compile Include="Data\BaseMaster.cs" />
     <Compile Include="Data\clsDatos.cs" />
     <Compile Include="Data\clsEntidades.cs" />
+    <Compile Include="Data\Provider.cs" />
     <Compile Include="Data\Customer.cs" />
     <Compile Include="Data\LinkSage50.cs" />
     <Compile Include="Data\Sage50_Models.cs" />

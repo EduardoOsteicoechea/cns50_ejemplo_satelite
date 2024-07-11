@@ -30,7 +30,7 @@ namespace GestProjectManager.DatabaseConnection
 
             ValueHolder.ConnectionString = connectionString;
 
-            MessageBox.Show(ValueHolder.ConnectionString);
+            //MessageBox.Show(ValueHolder.ConnectionString);
 
             Error = false;
         }

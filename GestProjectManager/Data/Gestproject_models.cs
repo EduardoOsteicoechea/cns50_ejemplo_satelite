@@ -142,8 +142,6 @@ namespace GestProjectManager.Data
         public DateTime PRY_FECHA_INICIO { get; set; }
     }
 
-
-
     static class FacturasEmitidasTableData
     {
         public static string Table1Name = "FACTURA_EMITIDA";
@@ -166,6 +164,7 @@ namespace GestProjectManager.Data
             "FCE_OBSERVACIONES",
         };
     }
+
     public class FacturaEmitida
     {
         public int FCE_ID { get; set; }

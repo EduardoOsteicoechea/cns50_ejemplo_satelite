@@ -71,7 +71,6 @@ namespace ExampleSatelite.Forms
                 this.SaveDataConfig();
                 this.Close();
             }
-
         }
     }
 }

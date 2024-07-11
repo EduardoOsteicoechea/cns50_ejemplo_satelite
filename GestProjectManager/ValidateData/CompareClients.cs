@@ -16,24 +16,23 @@ using System.Windows.Forms;
 using static sage.ew.db.DB;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using ExampleSatelite.Sage50.Negocio;
+using System.Data;
 
 namespace GestProjectManager.ValidateData
 {
     internal class CompareClients
     {
-
-
         public dynamic _oEntidad;
 
         private bool EditandoFicha = false;
         private bool NuevaFicha = false;
 
         private int _nDigitos = Convert.ToInt32(sage.ew.global.EW_GLOBAL._GetLenCampo(KeyDiccionarioLenCampos.wn_digitos));
+
         private string _codigo = string.Empty;
         public bool Error { get; set; } = true;
         public CompareClients()
         {
-
             //MessageBox.Show(
             //    ValueHolder.ClienteClassList.Where(element => 
             //        element.PAR_NOMBRE.Contains("David") && 
@@ -41,41 +40,67 @@ namespace GestProjectManager.ValidateData
             //    ).FirstOrDefault().PAR_CIF_NIF
             //);
 
-            Customer _oCustomer = new Customer();
-            clsEntityCustomer clsEntityCustomerInstance = new clsEntityCustomer();
-            clsEntityCustomerInstance.codigo = "00000222";
-
-            _oCustomer._Create(clsEntityCustomerInstance);
-
-
-            for(int i = 0; i < ValueHolder.Sage50ClientsTable.Rows.Count; i++)
+            int counter = 6;
+            for(int i = 0; i < ValueHolder.ClienteClassList.Count; i++)
+            //for (int i = 0; i < ValueHolder.ProveedorClassList.Count; i++)
             {
-                MessageBox.Show(
-                    "Cliente " + (i + 1) + ":" + "\n" +
-                    ValueHolder.Sage50ClientsTable.Rows[i].ItemArray[0] + "\n" +
-                    ValueHolder.Sage50ClientsTable.Rows[i].ItemArray[2] + "\n"
-                );
+                //GestProjectManager.Data.Proveedor currentClient = ValueHolder.ProveedorClassList[i];
+                GestProjectManager.Data.Cliente currentClient = ValueHolder.ClienteClassList[i];
+                Customer customer = new Customer();
+                //Sage50ProviderSampleClass customer = new Sage50ProviderSampleClass();
+                //clsEntityProvider clsEntityCustomerInstance = new clsEntityProvider();
+                clsEntityCustomer clsEntityCustomerInstance = new clsEntityCustomer();
+
+                //if(counter < 10)
+                //{
+                //    clsEntityCustomerInstance.codigo = "4000000" + counter;
+                //}
+                //else if(counter < 100)
+                //{
+                //    clsEntityCustomerInstance.codigo = "400000" + counter;
+                //}
+                //else
+                //{
+                //    clsEntityCustomerInstance.codigo = "40000" + counter;
+                //};
+
+                if(counter < 10)
+                {
+                    clsEntityCustomerInstance.codigo = "4400000" + counter;
+                }
+                else if(counter < 100)
+                {
+                    clsEntityCustomerInstance.codigo = "440000" + counter;
+                }
+                else
+                {
+                    clsEntityCustomerInstance.codigo = "44000" + counter;
+                };
+
+                //clsEntityCustomerInstance.telefono = "4147281033";
+                clsEntityCustomerInstance.nombre = currentClient.PAR_NOMBRE;
+                clsEntityCustomerInstance.direccion = currentClient.PAR_DIRECCION_1;
+                clsEntityCustomerInstance.codpos = currentClient.PAR_CP_1;
+                clsEntityCustomerInstance.tipo_iva = "03";
+                clsEntityCustomerInstance.cif = currentClient.PAR_CIF_NIF;
+                //customer._Create(clsEntityCustomerInstance);
+                //customer._Update(clsEntityCustomerInstance);
+                customer._Delete(clsEntityCustomerInstance);
+
+                counter++;
             };
 
+            //ValueHolder.Sage50ClientsTable = new ExampleSatelite.Sage50.Negocio.Sage50ProviderSampleClass()._LoadTable("");
+            //ValueHolder.Sage50ClientsTable = new ExampleSatelite.Sage50.Negocio.Customer()._LoadTable("");
 
-            //ValueHolder.Sage50ClientForm.
-
-
-
-            //for (int i = 0; i < ValueHolder.ClienteClassList.Count; i++)
+            //for(int i = 0; i < ValueHolder.Sage50ClientsTable.Rows.Count; i++)
             //{
-            //    Data.Cliente currentClient = ValueHolder.ClienteClassList[i];
             //    MessageBox.Show(
-            //        currentClient.PAR_NOMBRE + "\n" +
-            //        currentClient.PAR_NOMBRE_COMERCIAL + "\n" +
-            //        currentClient.PAR_CIF_NIF + "\n" +
-            //        currentClient.PAR_DIRECCION_1 + "\n" +
-            //        currentClient.PAR_PROVINCIA_1 + "\n" +
-            //        currentClient.PAR_PAIS_1 + "\n"
+            //        "Cliente " + (i + 1) + ":" + "\n" +
+            //        ValueHolder.Sage50ClientsTable.Rows[i].ItemArray[0] + "\n" +
+            //        ValueHolder.Sage50ClientsTable.Rows[i].ItemArray[2] + "\n"
             //    );
-            //}
-
-
+            //};
 
             Error = false;
         }

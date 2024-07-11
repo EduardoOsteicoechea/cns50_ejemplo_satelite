@@ -40,6 +40,7 @@ namespace GestProjectManager.DatabaseConnection
                 if(DatabaseVersionNames.Count > 0)
                 {
                     ValueHolder.GestprojectVersionNames = DatabaseVersionNames;
+                    ValueHolder.GestprojectVersionName = DatabaseVersionNames.Last();
                     Error = false;
                 }
                 else
